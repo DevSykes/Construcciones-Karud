@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Colores y o tipografías web*/
+:root{
+    --bg-color: #f0ead2;
+    --accent-color: #67202f;
+    --base-color: #d22b7a;
+    --sec-accent-color: #f269a9;
+    --spacing: 20px;
+    --r: 18px;
+    --shadow: 0 14px 30px rgba(0,0,0,.35);
+}
+
+/*Reset OR Normalise*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Scroll animado*/
+html{
+    scroll-behavior: smooth;
+}
+
+/*Body*/
+body{
+margin: 0;
+font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+background-color: var(--bg-color);
+color: var(--base-color)
+}
+
+/*Header*/
+h1,h2,h3,h4,h5,h6{
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color: var(--accent-color)
+}
+
+/*Listas*/
+ul{
+    list-style-type: none;
+}
+
+/*Enlaces*/
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s; 
+}
+
+/* Color para los "enlaces"*/
+a:hover{
+    color: var(--sec-accent-color)
+}
+
+/*Logo*/
+.logo-empresa {
+width: 150px;
+}
+
+/*Barra de arriba*/
+.topbar{
+position: sticky;
+top: 0;
+z-index: 20;
+backdrop-filter: blur(10px);
+background: rgba(15,18,22,.85);
+border-bottom: 1px solid var(--line);
+padding: 14px 18px;
+
+/* Flexbox para alinear:
+- izquierda: brand
+derecha: nav */
+display: flex;
+align-items: center;            /* centra verticalmente logo/texto/links */
+justify-content: space-between; /* empuja brand y nav a extremos */
+}
+
+.brand{
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.brand-text h1{
+margin: 0;
+font-size: 30px;
+}
+
+.brand-text p{
+margin: 3px 0 0;
+font-size: 13px;
+color: var(--muted);
+}
