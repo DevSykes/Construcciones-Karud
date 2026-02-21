@@ -93,3 +93,14 @@ margin: 3px 0 0;
 font-size: 13px;
 color: var(--muted);
 }
+
+/* Responsive */
+@media (max-width: 900px){
+  .hero{ grid-template-columns: 1fr; }
+  .grid{ grid-template-columns: 1fr; }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
