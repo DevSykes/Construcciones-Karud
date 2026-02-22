@@ -9,7 +9,7 @@
   --shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
 }
 
-/* Reset OR Normalis e*/
+/* Reset OR Normalise */
 * {
   margin: 0;
   padding: 0;
@@ -84,7 +84,7 @@ a:hover {
   width: 150px;
 }
 
-/*Topbar*/
+/* Topbar */
 .topbar {
   position: sticky;
   top: 0;
@@ -123,7 +123,7 @@ a:hover {
   align-items: center;
 }
 
-/* MOBILE */
+/* Responsive!! */
 @media (max-width: 768px) {
 
 .topbar {
@@ -150,11 +150,11 @@ a:hover {
 /* Contenedor del video */
 .video {
   position: relative;
-  padding-bottom: 56.25%; /* relación 16:9 */
+  padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  margin: 20px auto; /* centrado */
+  margin: 20px auto;
 }
 
 /* Iframe responsive */
@@ -164,11 +164,11 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 0; /* reemplaza frameborder */
-  border-radius: 10px; /* opcional, bordes redondeados */
+  border: 0;
+  border-radius: 10px;
 }
 
-/*Sección HERO*/
+/* Sección HERO */
 
 .hero {
   display: flex;
@@ -188,7 +188,7 @@ a:hover {
 }
 
 .hero-center {
-  background-color: rgba(39, 39, 39, 0.7); /* blanco transparente */
+  background-color: rgba(39, 39, 39, 0.7); 
   padding: 15px 25px;
   border-radius: 8px;
 }
@@ -216,18 +216,16 @@ a:hover {
 }
 
 /* ---------------------------------------------------*/
-/*Separador de sections hr*/
 
 /* Línea decorativa entre secciones */
 section + section {
-  /* todo section que sigue a otra section */
   border-top: 1px solid #eeeb3e;
-  padding-top: 50px; /* espacio desde la línea hasta el contenido */
+  padding-top: 50px; 
   margin: 40px 0;
 }
 /* ---------------------------------------------------*/
 
-/*Sección Nuestros Cimientos*/
+/*S ección Nuestros Cimientos */
 .nuestros-cimientos {
   max-width: 800px;
   margin: 40px auto;
@@ -244,7 +242,7 @@ section + section {
   line-height: 1.7;
 }
 
-/*Video en la sección Nuestros Cimientos*/
+/* Video en la sección Nuestros Cimientos */
 .video {
   margin-top: 40px;
   text-align: center;
@@ -252,7 +250,7 @@ section + section {
 
 /* ---------------------------------------------------*/
 
-/*EMPLEADOS*/
+/* EMPLEADOS */
 
 /* Título centrado */
 .empleados h2 {
@@ -291,17 +289,19 @@ section + section {
   padding: 20px;
 }
 
-/*Empleados: Imágenes dentro de las tarjetas */
+/* Empleados: Imágenes dentro de las tarjetas */
 .tarjeta img {
   width: 100%;
   height: auto;
 }
 
-/*Empleados: Efecto hover para las tarjetas */
+/* Empleados: Efecto hover para las tarjetas */
 .tarjeta:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
+
+/* Parte Responsive */
 
 @media (max-width: 600px) {
 
@@ -314,7 +314,7 @@ section + section {
 }
 /* ---------------------------------------------------*/
 
-/*SECTION Proyectos*/
+/* SECTION Proyectos */
 /* Contenedor de la galería */
 .proyectos-grid {
   display: grid;
@@ -383,7 +383,7 @@ section + section {
 
 /* ---------------------------------------------------*/
 
-/*reseñas*/
+/* reseñas */
 /* Contenedor de reseñas */
 .resenas-grid {
   display: grid;
@@ -427,7 +427,7 @@ section + section {
 .perfil {
   width: 40px;
   height: 40px;
-  border-radius: 50%; /* círculo */
+  border-radius: 50%;
   object-fit: cover;
   border: 2px solid #ccc;
 }
@@ -441,8 +441,8 @@ section + section {
 
 /* ---------------------------------------------------*/
 
-/*contacto FORMULARIO*/
-/* Contenedor*/
+/* contacto FORMULARIO */
+/* Contenedor */
 .contacto {
   padding: 40px 20px;
   background-color: rgba(61, 58, 58, 0.1);
@@ -555,6 +555,7 @@ section + section {
 }
 
 /* ---------------------------------------------------*/
+
 /* Responsive */
 @media (max-width: 768px) {
   .footer-container {
@@ -568,7 +569,7 @@ section + section {
 
 /* ---------------------------------------------------*/
 
-/*imgs Responsive */
+/* Extras Responsive */
 img {
   max-width: 100%;
   height: auto;
