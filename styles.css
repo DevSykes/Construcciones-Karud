@@ -16,7 +16,7 @@
     box-sizing: border-box;
 }
 
-/*Scroll animado*/
+/*Scroll suave*/
 html{
     scroll-behavior: smooth;
 }
@@ -57,7 +57,7 @@ a:hover{
 width: 150px;
 }
 
-/*Barra de arriba*/
+/*Topbar*/
 .topbar{
 position: sticky;
 top: 0;
@@ -88,6 +88,22 @@ font-size: 13px;
 color: var(--muted);
 }
 
+.nav {
+display: flex;
+gap: 20px; /* espacio entre enlaces */
+align-items: center; /* opcional, para centrar verticalmente */
+}
+
+@media (max-width: 768px) {
+.topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.brand {
+    max-width: 100%;
+}
+}
 /*Sección HERO*/
 
 .hero {
@@ -137,7 +153,6 @@ color: var(--muted);
 section {
     margin: 40px 0; 
     padding: 20px;
-
 }
 
 /* ---------------------------------------------------*/
@@ -167,6 +182,22 @@ text-align: center;
 /* ---------------------------------------------------*/
 
 /*EMPLEADOS*/
+
+/* Título centrado */
+.empleados h2 {
+text-align: center;
+margin-bottom: 30px;
+font-size: 2rem;
+}
+
+/* Contenedor de tarjetas en fila */
+.tarjetas-container {
+display: flex;
+justify-content: center; 
+gap: 20px;              
+flex-wrap: wrap;      
+}    
+
 .tarjeta {
     background-color: rgb(43, 54, 46); 
     border-radius: 10px;
