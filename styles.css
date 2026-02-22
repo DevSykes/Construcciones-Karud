@@ -1,7 +1,7 @@
 /*Colores y o tipografías web*/
 :root{
     --bg-color: #324734;
-    --accent-color: #ffffff;
+    --accent-color: #f5d951;
     --base-color: #bfd66d;
     --sec-accent-color: #6ef269;
     --spacing: 20px;
@@ -104,24 +104,30 @@ color: var(--muted);
     background-repeat: no-repeat;
 }
 
-.hero-left h2 {
+.hero-center {
+    background-color: rgba(39, 39, 39, 0.7); /* blanco transparente */
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+.hero-center h2 {
     font-size: 2.5rem;         
     margin-bottom: 15px;
 }
 
-.hero-left p {
+.hero-center p {
     font-size: 1rem;            
     line-height: 1.5;
-    color: #555;                
+    color: #a3eb95;   
 }
 
 /* HERO Responsive */
 @media (max-width: 600px) {
-    .hero-left h2 {
+    .hero-center h2 {
         font-size: 1.8rem;
     }
 
-    .hero-left p {
+    .hero-center p {
         font-size: 0.9rem;
     }
 }
