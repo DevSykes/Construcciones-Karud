@@ -126,7 +126,16 @@ color: var(--muted);
     }
 }
 
-    /* ---------------------------------------------------*/
+/* ---------------------------------------------------*/
+/*Espaciado, color y grosor lineas hr*/
+hr {
+    border: none;            
+    height: 1px;            
+    background-color: #ccc;  
+    margin: 40px 0;          
+}
+
+/* ---------------------------------------------------*/
 
 /*Sección Nuestros Cimientos*/
 .nuestros-cimientos {
