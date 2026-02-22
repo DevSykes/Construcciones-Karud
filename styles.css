@@ -164,8 +164,9 @@ section {
     padding: 25px;
 }
 
-.nuestros-cimientos h3 {
+.nuestros-cimientos h2 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .nuestros-cimientos p {
@@ -185,7 +186,7 @@ text-align: center;
 
 /* Título centrado */
 .empleados h2 {
-text-align: center;
+
 margin-bottom: 30px;
 font-size: 2rem;
 }
@@ -333,8 +334,9 @@ gap: 10px;
 margin-bottom: 10px;
 }
 
-.resena-header h4 {
+.resenas h2 {
 margin: 0;
+text-align: center;
 }
 
 /* Imagen de perfil */
