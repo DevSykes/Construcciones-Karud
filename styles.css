@@ -271,7 +271,7 @@ font-size: 2rem;
 
 /*reseñas*/
 /* Contenedor de reseñas */
-.reseñas-grid {
+.resenas-grid {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 gap: 20px;
@@ -280,8 +280,8 @@ padding: 0 20px;
 }
 
 /* Tarjeta de reseña */
-.reseña {
-background-color: #fff;
+.resena {
+background-color: #302d2d;
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -289,20 +289,20 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Hover efecto */
-.reseña:hover {
+.resena:hover {
 transform: translateY(-5px);
-box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+box-shadow: 0 8px 20px rgb(43, 54, 46);
 }
 
 /* Encabezado con imagen y nombre */
-.reseña-header {
+.resena-header {
 display: flex;
 align-items: center;
 gap: 10px;
 margin-bottom: 10px;
 }
 
-.reseña-header h4 {
+.resena-header h4 {
 margin: 0;
 }
 
@@ -315,6 +315,11 @@ object-fit: cover;
 border: 2px solid #ccc;
 }
 
+.puntuacion {
+color: gold;
+font-size: 1rem;
+margin-top: 5px;
+}
 
 /* ---------------------------------------------------*/
 
