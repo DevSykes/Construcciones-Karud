@@ -166,6 +166,30 @@ text-align: center;
 
 /* ---------------------------------------------------*/
 
+/*EMPLEADOS*/
+.tarjeta {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    text-align: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    flex: 1 1 calc(16.66% - 20px); 
+    max-width: calc(16.66% - 20px); 
+    min-width: 200px;
+}
+
+/*Empleados: Imágenes dentro de las tarjetas */
+.tarjeta img {
+    width: 100%;
+    height: auto;
+}
+
+/*Empleados: Efecto hover para las tarjetas */
+.tarjeta:hover {
+    transform: scale(1.05); /* Agranda la tarjeta ligeramente al pasar el ratón por encima */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Incrementa la sombra para resaltar la tarjeta */
+}
 
 /* ---------------------------------------------------*/
 
