@@ -36,6 +36,15 @@ body {
   overflow-x: hidden;
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+* {
+  max-width: 100%;
+}
+
 /* Header */
 h1,
 h2,
@@ -87,6 +96,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  max-width: 100vw;
 }
 
 .brand {
@@ -97,7 +108,7 @@ a:hover {
 
 .brand-text h1 {
   margin: 0;
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .brand-text p {
@@ -171,6 +182,9 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 .hero-center {
@@ -558,4 +572,9 @@ section + section {
 img {
   max-width: 100%;
   height: auto;
+}
+
+section {
+  width: 100%;
+  overflow-x: hidden;
 }
