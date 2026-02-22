@@ -101,7 +101,7 @@ color: var(--muted);
     background-image: url('../Assets/Other/FondoHero.png'); 
     background-size: cover;      
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 .hero-left h2 {
@@ -126,6 +126,8 @@ color: var(--muted);
     }
 }
 
+    /* ---------------------------------------------------*/
+
 /*Sección Nuestros Cimientos*/
 .nuestros-cimientos {
     max-width: 800px;
@@ -142,15 +144,19 @@ color: var(--muted);
     line-height: 1.7;
 }
 
-
+/*Video en la sección Nuestros Cimientos*/
+.video {
+margin-top: 40px;
+text-align: center; 
+}
 
 /* Web Responsive */
 @media (max-width: 900px){
-  .hero{ grid-template-columns: 1fr; }
-  .grid{ grid-template-columns: 1fr; }
+.hero{ grid-template-columns: 1fr; }
+.grid{ grid-template-columns: 1fr; }
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+max-width: 100%;
+height: auto;
 }
