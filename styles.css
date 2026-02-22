@@ -1,9 +1,9 @@
 /*Colores y o tipografías web*/
 :root{
-    --bg-color: #f0ead2;
-    --accent-color: #67202f;
-    --base-color: #d22b7a;
-    --sec-accent-color: #f269a9;
+    --bg-color: #324734;
+    --accent-color: #ffffff;
+    --base-color: #bfd66d;
+    --sec-accent-color: #6ef269;
     --spacing: 20px;
     --r: 18px;
     --shadow: 0 14px 30px rgba(0,0,0,.35);
@@ -127,12 +127,11 @@ color: var(--muted);
 }
 
 /* ---------------------------------------------------*/
-/*Espaciado, color y grosor lineas hr*/
-hr {
-    border: none;            
-    height: 1px;            
-    background-color: #ccc;  
-    margin: 40px 0;          
+/*Separador de sections hr*/
+section {
+    margin: 40px 0; 
+    padding: 20px;
+
 }
 
 /* ---------------------------------------------------*/
@@ -158,6 +157,11 @@ hr {
 margin-top: 40px;
 text-align: center; 
 }
+
+/* ---------------------------------------------------*/
+
+
+/* ---------------------------------------------------*/
 
 /* Web Responsive */
 @media (max-width: 900px){
