@@ -232,7 +232,7 @@ transition: transform 0.3s ease;
 transform: scale(1.05);
 }
 
-/* Overlay con nombre del proyecto */
+/* Overlay nombre del proyecto */
 .overlay {
 position: absolute;
 top: 0; left: 0;
@@ -248,7 +248,7 @@ text-align: center;
 padding: 10px;
 }
 
-/* Mostrar overlay al pasar el cursor */
+/* overlay al pasar el cursor */
 .proyecto:hover .overlay {
 opacity: 1;
 }
@@ -315,6 +315,7 @@ object-fit: cover;
 border: 2px solid #ccc;
 }
 
+/*Color estrellitas*/
 .puntuacion {
 color: gold;
 font-size: 1rem;
@@ -345,48 +346,112 @@ flex-direction: column;
 gap: 15px;
 }
 
-/* Labels */
+/* Etiquetas */
 .formulario-contacto label {
 font-weight: bold;
 margin-bottom: 5px;
 }
 
-/* Inputs y textarea */
+/* Textarea */
 .formulario-contacto input,
 .formulario-contacto textarea {
 padding: 10px;
-border: 1px solid #ccc;
+font-family: inherit;
+border: 1px solid #ffffff;
 border-radius: 8px;
 font-size: 1rem;
-resize: vertical; /* solo textarea se puede redimensionar verticalmente */
+resize: vertical;
 }
 
 /* Botón de enviar */
 .formulario-contacto button {
 padding: 12px;
-background-color: #007bff;
-color: rgb(138, 15, 15);
+background-color: #c5d438;
+color: rgb(0, 0, 0);
 font-size: 1rem;
 border: none;
 border-radius: 8px;
-cursor: pointer;
-transition: background-color 0.3s ease;
+transition: background-color 0.4s ease;
 }
 
 .formulario-contacto button:hover {
-background-color: #0056b3;
+background-color: #99a14a;
 }
 
 /* Responsive */
 @media (max-width: 600px) {
 .formulario-contacto {
-    gap: 10px;
+gap: 10px;
 }
 }
 
 /* ---------------------------------------------------*/
 
-/* imgs Responsive */
+/*FOOTER/*
+
+/*Base*/
+.footer {
+background-color: #222;
+color: #fff;
+padding: 30px 20px;
+font-size: 0.9rem;
+}
+
+/* Contenedor principal flex */
+.footer-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 0 auto;
+gap: 20px;
+}
+
+/* Logo/Texto */
+.footer-logo p {
+margin: 0;
+}
+
+/* Enlaces del footer */
+.footer-links a {
+color: #fff;
+margin: 0 10px;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+color: #007bff;
+}
+
+/* Iconos de redes sociales */
+.footer-social .social-icon {
+width: 25px;
+height: 25px;
+margin: 0 5px;
+transition: transform 0.3s ease;
+}
+
+.footer-social .social-icon:hover {
+transform: scale(1.2);
+}
+
+/* ---------------------------------------------------*/
+/* Responsive */
+@media (max-width: 768px) {
+.footer-container {
+flex-direction: column;
+text-align: center;
+}
+.footer-links {
+    margin: 10px 0;
+}
+}
+
+/* ---------------------------------------------------*/
+
+/*imgs Responsive */
 img {
 max-width: 100%;
 height: auto;
