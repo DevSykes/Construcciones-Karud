@@ -33,6 +33,7 @@ body {
     sans-serif;
   background-color: var(--bg-color);
   color: var(--base-color);
+  overflow-x: hidden;
 }
 
 /*Header*/
@@ -277,6 +278,15 @@ section + section {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 600px) {
+
+.tarjeta {
+  flex: 1 1 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+}
 /* ---------------------------------------------------*/
 
 /*SECTION Proyectos*/
@@ -469,9 +479,9 @@ section + section {
 
 /* ---------------------------------------------------*/
 
-/*FOOTER/*
+/* FOOTER /*
 
-/*Base*/
+/* Base */
 .footer {
   background-color: #222;
   color: #fff;
